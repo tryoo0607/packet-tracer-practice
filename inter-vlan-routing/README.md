@@ -27,6 +27,9 @@
 <br/>
 
 ## 라우터 설정 요약
+<img width="2824" height="1382" alt="image" src="https://github.com/user-attachments/assets/e001e5d8-e244-43cc-8bf9-c6685f433f35" />
+
+
 ```bash
 interface FastEthernet0/0
  no shutdown
@@ -44,6 +47,9 @@ interface FastEthernet0/0.2
 <br/>
 
 ## 스위치 설정 요약
+![Uploading image.png…]()
+
+
 ```bash
 interface Fa0/1      # PC0
  switchport mode access
@@ -72,6 +78,8 @@ interface Fa0/24     # Router 연결
 <br/>
 
 ## 테스트 결과
+<img width="2875" height="1524" alt="image" src="https://github.com/user-attachments/assets/e258615c-cc79-4b69-b799-f1f316935dc5" />
+
 - PC0 → Server0 Ping 성공
 - PC0 웹 브라우저 → http://192.168.20.10
 - 접속 성공
