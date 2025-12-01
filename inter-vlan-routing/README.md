@@ -47,7 +47,8 @@ interface FastEthernet0/0.2
 <br/>
 
 ## 스위치 설정 요약
-![Uploading image.png…]()
+<img width="2833" height="1499" alt="image" src="https://github.com/user-attachments/assets/0377ed48-ec57-425f-b861-47ab87170b53" />
+
 
 
 ```bash
