@@ -1,4 +1,4 @@
-# Router with VLan
+# Router with VLAN
 ```csharp
               [Router]
                  |
@@ -29,8 +29,8 @@
 <br/>
 
 
-## 라우터 설정 요약 (Router on a Stick)
-<img width="1439" height="764" alt="image" src="https://github.com/user-attachments/assets/4cf5f5bf-4921-48b9-b150-b1760951b067" />
+## 라우터 설정 요약
+<img width="1679" height="841" alt="image" src="https://github.com/user-attachments/assets/f7e3bbd0-82d6-44e5-9fbb-e38d778ed38e" />
 
 - 라우터의 FastEthernet0/0 인터페이스에 VLAN 별 서브인터페이스를 만들고 IP를 부여해 VLAN 간 라우팅을 수행함
 
@@ -45,7 +45,6 @@ interface FastEthernet0/0.1
 interface FastEthernet0/0.2
  encapsulation dot1Q 20
  ip address 192.168.10.129 255.255.255.128
-
 ```
 
 - VLAN 10 게이트웨이: 192.168.10.1/25
@@ -57,7 +56,7 @@ interface FastEthernet0/0.2
 
 
 ## 스위치 설정 요약
-<img width="1679" height="841" alt="image" src="https://github.com/user-attachments/assets/f7e3bbd0-82d6-44e5-9fbb-e38d778ed38e" />
+<img width="1439" height="764" alt="image" src="https://github.com/user-attachments/assets/4cf5f5bf-4921-48b9-b150-b1760951b067" />
 
 - PC가 연결된 포트는 Access 모드
 - 라우터로 연결되는 포트(Fa0/1)는 Trunk 모드로 설정합니다.
