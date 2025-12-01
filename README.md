@@ -5,9 +5,21 @@
 <br/>
 <br/>
 
+---
+
 ## Repository 목적
 - Cisco 네트워크 개념을 직접 구성하며 학습
 - 네트워크 장비 동작 원리를 실습을 통해 이해
 - CCNA 수준의 기본 네트워크부터 심화(Inter-VLAN, STP, OSPF, EIGRP 등)까지 단계별 학습
 - Packet Tracer 프로젝트를 버전 관리하고 재사용 가능하게 정리
 - 공부 기록을 지속적으로 축적하는 네트워크 학습용 공간
+
+<br/>
+<br/>
+
+---
+
+## MD 파일 목록
+- README : 실습 개요
+- Configuration : 실습 시 사용한 커맨드, 설정
+- Note : 개념 정리
